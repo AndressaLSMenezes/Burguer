@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
-
 html,
 body,
 div,
@@ -109,6 +108,10 @@ h3 {
 h4 {
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-bold);
+}
+
+button {
+  cursor: pointer;
 }
 
 `;
